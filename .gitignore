@@ -83,3 +83,8 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# signing
+_signing/huawei_hz20.jks
+_signing/keystore.properties
+signing_config.zip
