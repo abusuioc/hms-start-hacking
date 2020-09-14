@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.huawei.agconnect'
 
 def keystorePropertiesFile = rootProject.file("_signing/keystore.properties")
 def keystoreProperties = new Properties()
@@ -11,8 +12,8 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "hms.starter"
-        minSdkVersion 19
+        applicationId "com.huawei.hackzurich"
+        minSdkVersion 26 //because of com.huawei.hms:image-vision:1.0.2.301 (otherwise 19)
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -47,4 +48,125 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    // Huawei Mobile Services: https://developer.huawei.com/consumer/en/hms
+
+    // Account Kit: https://www.youtube.com/watch?v=og2ztz2DND4
+    implementation 'com.huawei.hms:hwid:5.0.1.301'
+
+    // Ads Kit: https://www.youtube.com/watch?v=MHe6QF5wSlY
+    implementation 'com.huawei.hms:ads-lite:13.4.32.303'
+
+    // Analytics Kit: https://www.youtube.com/watch?v=qY4ljdrC5sc
+    implementation 'com.huawei.hms:hianalytics:5.0.3.300'
+
+    // Audio Kit: https://www.youtube.com/watch?v=WhBjBWaUEkE
+    implementation 'com.huawei.hms:audiokit-player:1.0.0.302'
+
+    // AR Engine: https://developer.huawei.com/consumer/en/hms/huawei-arengine/
+    implementation 'com.huawei.hms:arenginesdk:2.13.0.4'
+
+    // Awareness Kit: https://www.youtube.com/watch?v=ekmxaxzx4wc
+    implementation 'com.huawei.hms:awareness:1.0.6.302'
+
+    // FIDO (open and free authentication standards): https://www.youtube.com/watch?v=xe3Fy0UARvo
+    implementation 'com.huawei.hms:fido-fido2:5.0.1.301'
+
+    // Drive Kit: https://www.youtube.com/watch?v=e_rtuaBheSQ
+    implementation 'com.huawei.hms:drive:5.0.0.301'
+
+    // Dynamic Tag Manager: https://www.youtube.com/watch?v=sb3VedKUQwc
+    implementation 'com.huawei.hms:dtm-api:5.0.2.300'
+
+    // Game Service: https://www.youtube.com/watch?v=YKYUiAVdQY0
+    implementation 'com.huawei.hms:game:5.0.1.301'
+
+    // Health Kit: https://www.youtube.com/watch?v=aDedyWG8Z_Q
+    implementation 'com.huawei.hms:hihealth-base:5.0.1.300'
+
+    // hQUIC Kit (congestion control algorithms): https://www.youtube.com/watch?v=wUVmQuNgicI
+    implementation 'com.huawei.hms:hquic-provider:5.0.1.300'
+
+    // Identity Kit: https://www.youtube.com/watch?v=uPTsOc7Faas
+    implementation 'com.huawei.hms:identity:4.0.4.300'
+
+    // Image Kit: https://developer.huawei.com/consumer/en/hms/huawei-imagekit/
+    // Image filters
+    implementation 'com.huawei.hms:image-vision:1.0.2.301'
+    // Animation effects
+    implementation 'com.huawei.hms:image-render:1.0.2.302'
+
+    // Location Kit: https://www.youtube.com/watch?v=kyK3FCNlafs
+    implementation 'com.huawei.hms:location:5.0.0.301'
+
+    // Map Kit: https://www.youtube.com/watch?v=LknAJ-fGjRQ
+    implementation 'com.huawei.hms:maps:5.0.1.301'
+
+    // ML Kit: https://www.youtube.com/watch?v=j6NSko-qxpM
+    // Text Recognition / General Card Recognition /
+    implementation 'com.huawei.hms:ml-computer-vision-ocr:2.0.1.300'
+    // Document Recognition / Landmark Recognition / Product Visual Search
+    implementation 'com.huawei.hms:ml-computer-vision-cloud:2.0.1.300'
+    // Bank Card Recognition
+    implementation 'com.huawei.hms:ml-computer-card-bcr:2.0.2.300'
+    // Translation
+    implementation 'com.huawei.hms:ml-computer-translate:2.0.2.300'
+    // Language Detection
+    implementation 'com.huawei.hms:ml-computer-language-detection:2.0.1.300'
+    // Audio File Transcription
+    implementation 'com.huawei.hms:ml-computer-voice-aft:2.0.1.300'
+    // Automatic Speech Recognition
+    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:2.0.1.300'
+    // Text to Speech
+    implementation 'com.huawei.hms:ml-computer-voice-tts:2.0.2.300'
+    // Image Classification
+    implementation 'com.huawei.hms:ml-computer-vision-classification:2.0.1.300'
+    // Object Detection and Tracking
+    implementation 'com.huawei.hms:ml-computer-vision-object:2.0.1.302'
+    // Image Segmentation
+    implementation 'com.huawei.hms:ml-computer-vision-segmentation:2.0.2.301'
+    // Skeleton Detection
+    implementation 'com.huawei.hms:ml-computer-vision-skeleton:2.0.2.300'
+    // Face Detection
+    implementation 'com.huawei.hms:ml-computer-vision-face:2.0.1.300'
+    // Image Super-Resolution
+    implementation 'com.huawei.hms:ml-computer-vision-imageSuperResolution:2.0.2.300'
+    // Document Skew Correction
+    implementation 'com.huawei.hms:ml-computer-vision-documentskew:2.0.2.300'
+    implementation 'com.huawei.hms:ml-computer-vision-documentskew-model:2.0.2.300'
+    // Liveness Detection
+    implementation 'com.huawei.hms:ml-computer-vision-livenessdetection:2.0.2.300'
+    // Hand Keypoint Detection
+    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint:2.0.2.300'
+    // Custom Model
+    implementation 'com.huawei.hms:ml-computer-model-executor:2.0.2.301'
+
+    // Nearby Service: https://www.youtube.com/watch?v=jx9VILivRXU
+    implementation 'com.huawei.hms:nearby:5.0.2.300'
+
+    // Panorama: Kit https://www.youtube.com/watch?v=sAjNJFNuEcI
+    implementation 'com.huawei.hms:panorama:5.0.2.300'
+
+    // Push Kit: https://www.youtube.com/watch?v=lYGO81pGEYE
+    implementation 'com.huawei.hms:push:5.0.2.300'
+
+    // Safety Detect: https://www.youtube.com/watch?v=WFbM63JkvzA
+    implementation 'com.huawei.hms:safetydetect:5.0.2.300'
+
+    // Scan Kit: https://www.youtube.com/watch?v=ocdGRIlQSIU
+    implementation 'com.huawei.hms:scan:1.2.2.300'
+
+    // Scene Kit: https://www.youtube.com/watch?v=ECWEDxc9LY4
+    implementation 'com.huawei.scenekit:sdk:5.0.2.302'
+
+    // Site Kit: https://www.youtube.com/watch?v=xxAqERsidq4
+    implementation 'com.huawei.hms:site:5.0.1.300'
+
+    // Video Kit: https://www.youtube.com/watch?v=iLoTOP7JkH4
+    implementation 'com.huawei.hms:videokit-player:1.0.1.300'
+
+    // Wallet Kit: https://www.youtube.com/watch?v=L32CzPGyoaw
+    implementation 'com.huawei.hms:wallet:4.0.4.301'
+
+    // Wireless Kit: https://developer.huawei.com/consumer/en/hms/huawei-wirelesskit/
+    implementation 'com.huawei.hms:wireless:5.0.1.305'
 }
