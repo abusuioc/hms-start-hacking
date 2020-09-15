@@ -89,5 +89,5 @@ _signing/huawei_hz20.jks
 _signing/keystore.properties
 
 # HMS specific
-agconnect-services.json
+app/agconnect-services.json
 unzip_to_project_root.zip
