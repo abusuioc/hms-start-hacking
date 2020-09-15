@@ -90,4 +90,4 @@ _signing/keystore.properties
 
 # HMS specific
 app/agconnect-services.json
-unzip_to_project_root.zip
+secrets_to_unzip_in_project_root.zip
