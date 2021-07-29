@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">HMS starter app</string>
-    <string name="checking_setup">Checking setup ...</string>
+    <string name="app_name">HMS native</string>
+    <string name="app_title">HMS native starter app</string>
+    <string name="checking_setup">Checking setup …</string>
     <string name="checking_setup_result_ok">All good. Start hacking!</string>
     <string name="checking_setup_result_fail">Issue found: %1$s</string>
 </resources>
