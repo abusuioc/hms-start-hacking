@@ -1,4 +1,4 @@
-package com.huawei.hackzurich
+package hms.starter
 
 import org.junit.Assert
 import org.junit.Test

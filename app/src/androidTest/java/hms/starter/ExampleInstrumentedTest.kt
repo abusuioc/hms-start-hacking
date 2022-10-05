@@ -1,5 +1,4 @@
-package com.huawei.hackzurich
-
+package hms.starter
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.Assert

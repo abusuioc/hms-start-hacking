@@ -10,7 +10,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.huawei.hackzurich"
+        applicationId "hms.starter.native"
         minSdkVersion 23 //needed by the HMS Health Kit
         targetSdkVersion 33
         versionCode 1
@@ -44,7 +44,7 @@ android {
         pickFirst 'lib/armeabi-v7a/libmindspore-lite.so'
     }
 
-    namespace 'com.huawei.hackzurich'
+    namespace 'hms.starter'
 
 }
 

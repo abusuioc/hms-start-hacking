@@ -1,42 +1,56 @@
 # Huawei Mobile Services starter project for native Android
-Welcome to Huawei's workshop at [HackZurich 2021](https://www.hackzurich.com/) !
-
-You have a bunch of fresh ideas and you aspire to make them possible with the help of the [Huawei Mobile Services](https://developer.huawei.com/consumer/en/hms) (HMS). We feel your enthusiasm - that's why we prepared this starter project that will allow you to start coding *immediately* and avoid time consuming configuration steps.
 
 
+This project takes care of all the needed configuration so that you can start coding right away using the [Huawei Mobile Services](https://developer.huawei.com/consumer/en/hms) (HMS) SDKs. We mostly use this project during hackathons.
+
+Basically, the starter project is a native Android skeleton app that:
+
+- has the main featured HMS Kits added as dependencies (just comment out those you need)
+
+- has all needed permissions added to the Android manifest
+
+- streamlines the connection to an [App Gallery](https://consumer.huawei.com/en/mobileservices/appgallery/) account which is needed by the HMS SDKs
+
+- when started, does a self test to check if everything is properly configured
+
+  
 
 ### I'm in!
 
 1. fork/clone this project
-2. visit the workshop Slack channel [#03_ws04_huawei](https://hackzurich2021.slack.com/archives/C02ALK7DHPA) 
-3. look for the file with secrets ([direct link ](https://hackzurich2021.slack.com/files/U02DJ2Z2C9L/F02FKD83SMA/secrets_to_unzip_in_project_root.zip))
-4. unzip the file into the project's *root* directory
-5. start coding!
+
+2. ask for the file with secrets `🕵` 
+
+3. unzip the file into the project's *root* directory
+
+4. start coding!
+
+   
+
+### What's this file with secrets about?
+
+It streamlines the connection to a shared App Gallery account so that you don't have to create and configure one yourself. It's basically a zip containing 3 files:
+
+- the`agconnect-services.json` configuration file needed by any HMS SDK
+
+- the signing configuration needed to authenticate the project to App Gallery the cloud related functions:
+
+  - a Java keystore containing the signing key
+
+  - the *keystore.properties* file that unlocks the keystore and it's referenced from within *app/build.gradle* 
+
+    
+
+If you're participating in a hackathon, simply ask the Huawei devrel team at the event for the zip file and extract it in the root of the project. Alternatively, you could generate the 3 needed files yourself and thus link the project to your own App Gallery account.
 
 
 
-### What just happened? Am I really ready to go?
+### What if I don't have a Huawei HMS test device?
 
-Yes!! The starter project is a native Android skeleton app that:
+There are solutions:
 
-- has the main HMS Kits added as dependencies 
-- has all relevant permissions added to the Android manifest
-- connects to a shared account on [App Gallery](https://consumer.huawei.com/en/mobileservices/appgallery/) which is needed by the majority of the HMS Kits
-- when started, does a self test to check if everything is properly configured
-
-The file with secrets is the link between the starter project and the shared account. It contains:
-
-- the `agconnect-services.json` configuration file
-- the signing configuration needed to authenticate this app to use HMS services
-
-
-
-### But I don't have a Huawei HMS test device ...
-
-There are solutions.
-
-1. If you're participating on-site, ask for a test device at the Huawei booth
-2. Download and temporary install HMS Core on your own Android device from [here](https://appgallery.cloud.huawei.com/appdl/C10132067)
+1. If you're participating on-site, ask for a test device from the Huawei devrel team at the event 
+2. Download and temporary install HMS Core on your own generic Android device from [here](https://appgallery.cloud.huawei.com/appdl/C10132067)
 3. [Cloud Debugging](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/CloudDebugging-introduction) : this requires you to actually own/create a Huawei ID, but once that's done, you can just download the [HMS Toolkit Android Studio plugin](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/installation-0000001050145206) and access physical devices in the cloud
 
 
@@ -49,11 +63,12 @@ There are solutions.
 
   
 
-More HMS code samples:
+### Various HMS code samples and demos
 
 - https://github.com/HMS-Core 
-- https://github.com/Explore-In-HMS/HmsSandbox
+- https://github.com/Explore-In-HMS/Explore-Hms
 
 
 
-**Happy hacking!**
+Happy hacking! 👨🏻‍💻
+

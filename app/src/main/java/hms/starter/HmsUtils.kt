@@ -1,11 +1,10 @@
-package com.huawei.hackzurich
+package hms.starter
 
 import android.content.Context
 import com.huawei.agconnect.AGConnectInstance
 import com.huawei.hms.aaid.HmsInstanceId
 import com.huawei.hms.api.ConnectionResult
 import com.huawei.hms.api.HuaweiApiAvailability
-
 
 object HmsUtils {
 
