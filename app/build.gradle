@@ -63,107 +63,107 @@ dependencies {
     // Huawei Mobile Services: https://developer.huawei.com/consumer/en/hms
 
     // AR Engine: https://developer.huawei.com/consumer/en/hms/huawei-arengine/
-    implementation 'com.huawei.hms:arenginesdk:3.7.0.3'
+//    implementation 'com.huawei.hms:arenginesdk:3.7.0.3'
 
     // Drive Kit: https://developer.huawei.com/consumer/en/hms/huawei-drivekit/
-    implementation 'com.huawei.hms:drive:5.0.0.307'
+//    implementation 'com.huawei.hms:drive:5.0.0.307'
 
     // Health Kit: https://developer.huawei.com/consumer/en/hms/huaweihealth/
-    implementation 'com.huawei.hms:health:6.7.0.300'
-    implementation 'com.huawei.hihealth:hihealthkit:6.7.0.300'
+//    implementation 'com.huawei.hms:health:6.7.0.300'
+//    implementation 'com.huawei.hihealth:hihealthkit:6.7.0.300'
 
     //Audio Editor Kit: https://developer.huawei.com/consumer/en/hms/huawei-audio-editor/
-    implementation 'com.huawei.hms:audio-editor-ui:1.7.0.300'
-    implementation 'com.huawei.hms:audio-editor-sdk:1.7.0.300'
-    implementation 'com.huawei.hms:audio-editor-aidubbing:1.7.0.300'
+//    implementation 'com.huawei.hms:audio-editor-ui:1.7.0.300'
+//    implementation 'com.huawei.hms:audio-editor-sdk:1.7.0.300'
+//    implementation 'com.huawei.hms:audio-editor-aidubbing:1.7.0.300'
 
     //Video Editor Kit:
-    implementation 'com.huawei.hms:video-editor-sdk:1.7.0.301'
-    implementation 'com.huawei.hms:video-editor-ai:1.7.0.301'
-    implementation 'com.huawei.hms:video-editor-recorder:1.0.0.301'
-    implementation 'com.huawei.hms:video-editor-ui:1.1.0.305'
+//    implementation 'com.huawei.hms:video-editor-sdk:1.7.0.301'
+//    implementation 'com.huawei.hms:video-editor-ai:1.7.0.301'
+//    implementation 'com.huawei.hms:video-editor-recorder:1.0.0.301'
+//    implementation 'com.huawei.hms:video-editor-ui:1.1.0.305'
 
     // Location Kit: https://www.youtube.com/watch?v=kyK3FCNlafs
-    implementation 'com.huawei.hms:location:6.4.0.300'
+//    implementation 'com.huawei.hms:location:6.4.0.300'
 
     // Map Kit: https://www.youtube.com/watch?v=LknAJ-fGjRQ
-    implementation 'com.huawei.hms:maps:6.6.1.301'
+//    implementation 'com.huawei.hms:maps:6.6.1.301'
 
     // ML Kit: https://developer.huawei.com/consumer/en/hms/huawei-mlkit/
     // All ML Kit services: https://developer.huawei.com/consumer/en/doc/development/hiai-Guides/overview-sdk-0000001051070278#EN-US_TOPIC_0000001051070278__table95061344575
     // Text Recognition / General Card Recognition
-    implementation 'com.huawei.hms:ml-computer-vision-ocr:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-vision-ocr-cn-model:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-vision-ocr-jk-model:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-vision-ocr-latin-model:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-ocr:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-ocr-cn-model:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-ocr-jk-model:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-ocr-latin-model:3.6.0.300'
     // Document Recognition / Landmark Recognition / Product Visual Search
-    implementation 'com.huawei.hms:ml-computer-vision-cloud:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-cloud:3.5.0.301'
     // ID Card Recognition
-    implementation 'com.huawei.hms:ml-computer-card-icr-vn:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-computer-card-icr-vn:3.5.0.300'
     // Bank Card Recognition
-    implementation 'com.huawei.hms:ml-computer-card-bcr:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-computer-card-bcr:3.5.0.300'
     // Form Recognition
-    implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-formrecognition:3.5.0.302'
     // Translation
-    implementation 'com.huawei.hms:ml-computer-translate:3.6.0.312'
-    implementation 'com.huawei.hms:ml-computer-translate-model:3.6.0.312'
+//    implementation 'com.huawei.hms:ml-computer-translate:3.6.0.312'
+//    implementation 'com.huawei.hms:ml-computer-translate-model:3.6.0.312'
     // Language Detection
-    implementation 'com.huawei.hms:ml-computer-language-detection:3.6.0.312'
-    implementation 'com.huawei.hms:ml-computer-language-detection-model:3.6.0.312'
+//    implementation 'com.huawei.hms:ml-computer-language-detection:3.6.0.312'
+//    implementation 'com.huawei.hms:ml-computer-language-detection-model:3.6.0.312'
     // Audio File Transcription
-    implementation 'com.huawei.hms:ml-computer-voice-aft:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-computer-voice-aft:3.5.0.300'
     // Automatic Speech Recognition
-    implementation 'com.huawei.hms:ml-computer-voice-asr:3.5.0.301'
-    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-voice-asr:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:3.5.0.301'
     // Text to Speech
-    implementation 'com.huawei.hms:ml-computer-voice-tts:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-voice-tts-model-bee:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-voice-tts-model-eagle:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-voice-tts:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-voice-tts-model-bee:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-voice-tts-model-eagle:3.6.0.300'
     // Image Classification
-    implementation 'com.huawei.hms:ml-computer-vision-classification:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-image-classification-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-classification:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-image-classification-model:3.5.0.302'
     // Object Detection and Tracking
-    implementation 'com.huawei.hms:ml-computer-vision-object:3.5.0.307'
+//    implementation 'com.huawei.hms:ml-computer-vision-object:3.5.0.307'
     // Image Segmentation
-    implementation 'com.huawei.hms:ml-computer-vision-segmentation:3.5.0.303'
-    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-body-model:3.5.0.303'
-    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:3.5.0.303'
-    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-hair-model:3.5.0.303'
+//    implementation 'com.huawei.hms:ml-computer-vision-segmentation:3.5.0.303'
+//    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-body-model:3.5.0.303'
+//    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:3.5.0.303'
+//    implementation 'com.huawei.hms:ml-computer-vision-image-segmentation-hair-model:3.5.0.303'
     // Skeleton Detection
-    implementation 'com.huawei.hms:ml-computer-vision-skeleton:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-skeleton:3.5.0.300'
     // Scene Detection
-    implementation 'com.huawei.hms:ml-computer-vision-scenedetection:3.6.0.300'
-    implementation 'com.huawei.hms:ml-computer-vision-scenedetection-model:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-scenedetection:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-scenedetection-model:3.6.0.300'
     // Face Detection
-    implementation 'com.huawei.hms:ml-computer-vision-face:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-face-emotion-model:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-face-feature-model:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:3.5.0.302'
-    implementation 'com.huawei.hms:ml-computer-vision-face-3d-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-face:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-face-emotion-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-face-feature-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-computer-vision-face-3d-model:3.5.0.302'
     // Face Verification
-    implementation 'com.huawei.hms:ml-computer-vision-faceverify:3.6.0.304'
-    implementation 'com.huawei.hms:ml-computer-vision-faceverify-model:3.6.0.304'
+//    implementation 'com.huawei.hms:ml-computer-vision-faceverify:3.6.0.304'
+//    implementation 'com.huawei.hms:ml-computer-vision-faceverify-model:3.6.0.304'
     // Text Image Super-Resolution
-    implementation 'com.huawei.hms:ml-computer-vision-textimagesuperresolution:3.5.0.300'
-    implementation'com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-textimagesuperresolution:3.5.0.300'
+//    implementation'com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:3.5.0.300'
     // Document Skew Correction
-    implementation 'com.huawei.hms:ml-computer-vision-documentskew:3.5.0.301'
-    implementation 'com.huawei.hms:ml-computer-vision-documentskew-model:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-documentskew:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-documentskew-model:3.5.0.301'
     // Liveness Detection
-    implementation 'com.huawei.hms:ml-computer-vision-livenessdetection:3.6.0.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-livenessdetection:3.6.0.300'
     // Sound Detection
-    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-sdk:3.5.0.302'
-    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-model:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-sdk:3.5.0.302'
+//    implementation 'com.huawei.hms:ml-speech-semantics-sounddect-model:3.5.0.302'
     // Hand Gesture Detection
-    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint:3.5.0.301'
-    implementation'com.huawei.hms:ml-computer-vision-handkeypoint-model:3.5.0.301'
-    implementation 'com.huawei.hms:ml-computer-vision-gesture-model:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-handkeypoint-model:3.5.0.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-gesture-model:3.5.0.301'
     // Text embedding
-    implementation 'com.huawei.hms:ml-nlp-textembedding:3.5.0.300'
+//    implementation 'com.huawei.hms:ml-nlp-textembedding:3.5.0.300'
     // Custom Model
-    implementation 'com.huawei.hms:ml-computer-model-executor:3.5.0.301'
-    implementation 'mindspore:mindspore-lite:5.0.5.300'
+//    implementation 'com.huawei.hms:ml-computer-model-executor:3.5.0.301'
+//    implementation 'mindspore:mindspore-lite:5.0.5.300'
 
     // Push Kit (used to test the connection to AGC)
     implementation 'com.huawei.hms:push:6.3.0.302'
