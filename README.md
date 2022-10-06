@@ -33,9 +33,9 @@ It streamlines the connection to a shared App Gallery account so that you don't 
 
 - the`agconnect-services.json` configuration file needed by any HMS SDK
 
-- the signing configuration needed to authenticate the project to App Gallery the cloud related functions:
+- the signing configuration needed to authenticate the project to App Gallery, for the cloud related functions:
 
-  - a Java keystore containing the signing key
+  - a Java keystore (.jks file) containing the signing key
 
   - the *keystore.properties* file that unlocks the keystore and it's referenced from within *app/build.gradle* 
 
@@ -67,6 +67,8 @@ There are solutions:
 
 - https://github.com/HMS-Core 
 - https://github.com/Explore-In-HMS/Explore-Hms
+
+
 
 
 
