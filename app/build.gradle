@@ -10,7 +10,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "hms.starter.native"
+        applicationId "hms.starter"
         minSdkVersion 23 //needed by the HMS Health Kit
         targetSdkVersion 33
         versionCode 1
@@ -83,10 +83,10 @@ dependencies {
 //    implementation 'com.huawei.hms:video-editor-recorder:1.0.0.301'
 //    implementation 'com.huawei.hms:video-editor-ui:1.1.0.305'
 
-    // Location Kit: https://www.youtube.com/watch?v=kyK3FCNlafs
-//    implementation 'com.huawei.hms:location:6.4.0.300'
+    // Location Kit: https://developer.huawei.com/consumer/en/hms/huawei-locationkit/
+//    implementation 'com.huawei.hms:location:6.7.0.300'
 
-    // Map Kit: https://www.youtube.com/watch?v=LknAJ-fGjRQ
+    // Map Kit: https://developer.huawei.com/consumer/en/hms/huawei-MapKit/
 //    implementation 'com.huawei.hms:maps:6.6.1.301'
 
     // ML Kit: https://developer.huawei.com/consumer/en/hms/huawei-mlkit/
@@ -166,5 +166,5 @@ dependencies {
 //    implementation 'mindspore:mindspore-lite:5.0.5.300'
 
     // Push Kit (used to test the connection to AGC)
-    implementation 'com.huawei.hms:push:6.3.0.302'
+    implementation 'com.huawei.hms:push:6.5.0.300'
 }
