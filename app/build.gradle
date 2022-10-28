@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "hms.starter"
-        minSdkVersion 23 //needed by the HMS Health Kit
+        minSdkVersion 24 //required by the AudioEditorKit
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
@@ -54,7 +54,7 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha02'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha03'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
@@ -73,15 +73,25 @@ dependencies {
 //    implementation 'com.huawei.hihealth:hihealthkit:6.7.0.300'
 
     //Audio Editor Kit: https://developer.huawei.com/consumer/en/hms/huawei-audio-editor/
-//    implementation 'com.huawei.hms:audio-editor-ui:1.7.0.300'
-//    implementation 'com.huawei.hms:audio-editor-sdk:1.7.0.300'
-//    implementation 'com.huawei.hms:audio-editor-aidubbing:1.7.0.300'
+//    implementation 'com.huawei.hms:audio-editor-ui:1.8.0.301'
+//    implementation 'com.huawei.hms:audio-editor-sdk:1.8.0.301'
+//    implementation 'com.huawei.hms:audio-editor-aidubbing:1.8.0.301'
 
     //Video Editor Kit:
-//    implementation 'com.huawei.hms:video-editor-sdk:1.7.0.301'
-//    implementation 'com.huawei.hms:video-editor-ai:1.7.0.301'
-//    implementation 'com.huawei.hms:video-editor-recorder:1.0.0.301'
+//    implementation 'com.huawei.hms:video-editor-sdk:1.8.0.301'
 //    implementation 'com.huawei.hms:video-editor-ui:1.1.0.305'
+//    implementation 'com.huawei.hms:video-editor-recorder:1.0.0.301'
+//
+//    implementation 'com.huawei.hms:video-editor-ai:1.8.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-common:1.8.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-imagetimelapse:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-imagetimelapse-model:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-videoselection:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-videoselection-model:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-interactiveseg:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-interactiveseg-model:1.7.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-beauty:1.8.0.300'
+//    implementation 'com.huawei.hms:video-editor-ai-beauty-model:1.8.0.300'
 
     // Location Kit: https://developer.huawei.com/consumer/en/hms/huawei-locationkit/
 //    implementation 'com.huawei.hms:location:6.7.0.300'
